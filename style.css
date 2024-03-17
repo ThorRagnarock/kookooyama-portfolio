@@ -1,0 +1,317 @@
+/*This CSS file is part of the Kookooyama Platner project
+ברוך השם תודה לאל סוף סוף סיימנו  ויש קצת מנוחה
+ד"א אלכס, הביוטיפיי הזה הרבה יותר טוב מפריטי שהמלצתי לך עליו
+*/
+
+* {
+    box-sizing: border-box;
+    font-kerning: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-size: 14px;
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(241, 241, 241);
+}
+
+.logo {
+    width: 103px;
+    height: 25px;
+}
+
+.nav {
+    display: flex;
+    color: rgba(34, 34, 34);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.hero {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0;
+}
+
+.content {
+    height: auto;
+    color: rgb(58, 58, 58);
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.content h1 {
+    color: black;
+    font-size: 44px;
+    line-height: 62px;
+}
+
+.image {
+    border: white;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    margin-left: 30px;
+}
+
+.service {
+    width: 33.333%;
+    margin: 0;
+    font-size: 24px;
+    font-size: 1.5rem;
+    margin-top: 100px;
+}
+
+.service-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 26px;
+    margin: 14px 0 14px;
+}
+
+/* .services_pictogram {} */
+
+.service-description {
+    font-size: 14px;
+    line-height: 26px;
+    max-width: 334px;
+    margin-top: 0px;
+    color: rgb(37, 37, 37);
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 30px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 100px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.skills-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.skills-description-title h1 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 36px;
+    line-height: 50px;
+    letter-spacing: 1.8px;
+    margin: 140px 0 0;
+}
+
+.yelloer {
+    color: rgb(255, 174, 0);
+}
+
+.skills-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.skills-liner {
+    width: 37px;
+    height: 0;
+    border-top: solid 4px;
+    margin-right: 25px;
+}
+.skills-description {
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(102, 102, 102);
+}
+
+.secondary-wrapper h3 {
+    margin: 30px 0 0;
+}
+
+.skills-image {
+    max-width: 644px;
+    margin-top: 80px;
+}
+
+.projects {
+    margin-top: 130px;
+    background-color: rgb(233, 233, 233);
+}
+
+.prjects-wrapper {
+    display: flex;
+
+    margin: 0;
+    flex-wrap: wrap;
+
+}
+
+.img-prooject {
+    width: 33.333%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.testamonials {
+    margin-top: 130px;
+    /*<!--head to text--> */
+}
+
+.testmanials-wrapper {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testamonials-description-title h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 30px;
+}
+
+.testamonials-description {
+    margin: 80px 0 0;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(37, 37, 37);
+}
+
+.testamonials-description p {
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.testamonials-testamony {
+    margin-top: 30px;
+}
+
+.testamonials-name {
+    margin-bottom: 0;
+}
+
+.testamonials-job-description {
+    margin: 10px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+}
+.testamonials-logos-wrapper{
+    margin-top: 100px;
+    padding:0 150px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(246 , 246, 246);
+    margin-top: 120px;
+}
+.contact-title h1{
+    margin: 100px 0 0;
+    text-transform: uppercase;
+}
+.bright-yellower {
+    color: rgba(248, 194, 18);
+}
+.contact-paragraph {
+    margin: 40px 0 50px;
+    color:rgba(153, 153, 153);
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.form-input-fields {
+
+
+}
+
+.form-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align:initial;
+}
+
+.input-details {
+    width: 295px;
+    height: 60px;
+    background-color:white;
+    color:rgba(187, 187, 187);
+    line-height: 60px;
+    padding-left:20px;
+}
+
+.text-label-message {
+    margin-top: 35px;
+    width: 950px;
+    height: 160px;
+    background-color:white;
+    text-align:initial;
+    color:rgba(187, 187, 187);
+    line-height: 60px;
+    padding-left:20px;
+}
+.form-button{
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-label-submit {
+    margin: 35px 0 110px;
+    width: 472px;
+    height: 60px;
+    color: white;
+    background-color: rgba(255, 174, 0);
+    text-align: center;
+    line-height: 60px;
+ }
+.footer {
+    height: 80px;
+
+    border-bottom:solid 2px black;
+    background-color: rgba(30, 30, 30, 60%);
+
+}1
